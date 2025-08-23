@@ -1,80 +1,24 @@
-
-    
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monitoramento dos Tanques</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super visório</title>
 
-  <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="tanques.css">
 </head>
+
 <body>
-  <!-- Menu -->
-  <nav>
-    <a href="#">GERAL</a>
-    <a href="#">RECIRCULAÇÃO</a>
-    <a href="#" class="active">TANQUES</a>
-    <a href="#">ALGO</a>
-  </nav>
+    <!-- Menu -->
+    <nav>
+        <a href="./index.html" class="active">GERAL</a>
+        <a  href="./recirculacao.html" >RECIRCULAÇÃO</a>
+        <a href="./tanques.html">TANQUES</a>
+        <a href="#">ALGO</a>
+    </nav>
 
-  <!-- Conteúdo -->
-  <div class="container">
-    <h1>MONITORAMENTO DOS TANQUES</h1>
-    <div class="cards">
-      <!-- Tanque 01 -->
-      <div class="card">
-        <h2>Tanque 01</h2>
-        <span class="status atencao">Atenção</span>
-        <div class="bar-container">
-          <div class="bar" style="height: 84%;"></div>
-        </div>
-        <div class="info">84.26%<br>34.4C</div>
-      </div>
+    <h1>Manutenção ...</h1>
 
-      <!-- Tanque 02 -->
-      <div class="card">
-        <h2>Tanque 02</h2>
-        <span class="status normal">Normal</span>
-        <div class="bar-container">
-          <div class="bar" style="height: 72%;"></div>
-        </div>
-        <div class="info">72.25%<br>34.4C</div>
-      </div>
 
-      <!-- Tanque 03 -->
-      <div class="card">
-        <h2>Tanque 03</h2>
-        <span class="status normal">Normal</span>
-        <div class="bar-container">
-          <div class="bar" style="height: 52%;"></div>
-        </div>
-        <div class="info">52.12%<br>45.4C</div>
-      </div>
-
-      <!-- Tanque 04 -->
-      <div class="card">
-        <h2>Tanque 04</h2>
-        <span class="status atencao">Atenção</span>
-        <div class="bar-container">
-          <div class="bar" style="height: 95%;"></div>
-        </div>
-        <div class="info">95.26%<br>34.4C</div>
-      </div>
-
-      <!-- Tanque 05 -->
-      <div class="card">
-        <h2>Tanque 05</h2>
-        <span class="status normal">Normal</span>
-        <div class="bar-container">
-          <div class="bar" style="height: 32%;"></div>
-        </div>
-        <div class="info">32.46%<br>34.4C</div>
-      </div>
-    </div>
-  </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.1.0/paho-mqtt.min.js"></script>
-<script src="./script.js"></script>
-</body>
 </html>
