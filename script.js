@@ -52,6 +52,9 @@ function updateVolFront(tanque, valor) {
         t1.textContent = valor + "%";
         let bar1 = document.getElementById("bar1");
         bar1.style.height = valor + "%"
+        const nivel = document.getElementById("v1");
+      nivel.setAttribute("y", y);
+      nivel.setAttribute("height", valor);
 
     }
     else if (tanque == "simas/teste/tanques/t2/volume") {
