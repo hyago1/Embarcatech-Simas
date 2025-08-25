@@ -32,11 +32,15 @@
     }
 
     /* Conteúdo */
+
     .container {
       padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    }
+    #svg1{
+      height: 70vh;
     }
 
     h1 {
